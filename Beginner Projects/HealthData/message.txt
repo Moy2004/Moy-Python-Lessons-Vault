@@ -1,4 +1,3 @@
-C:\Users\alexa\AppData\Local\Programs\Python\Python311\python.exe C:\Users\alexa\Documents\GitHub\TestMoyProjects\main.py 
 
        Patient Health Data
 Action options:: 
