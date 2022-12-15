@@ -1,0 +1,137 @@
+C:\Users\alexa\AppData\Local\Programs\Python\Python311\python.exe C:\Users\alexa\Documents\GitHub\TestMoyProjects\main.py 
+
+       Patient Health Data
+Action options:: 
+[View   - existing]  patient data 
+[Change - existing]  patient data
+[Add    - incoming]  patient data
+
+[Exit]
+
+Enter the View/Change/Add/Exit: View
+
+you have chosen to view the data
+[View - ALL][View - Single]
+
+Enter All/Single:ALL
+{'P000': ['0-Name,1-Age,2-Height(cm),3-Residency,4-Condition,5-Treatment'],
+ 'P001': ['Moy', 18, 187, 'Cave 1', 'has a town-phobia', 'move to city'],
+ 'P002': ['Sashko', 17, 200, 'Cave 2', 'brain cells loss', 'move to city'],
+ 'P003': ['hong-hong', 18, 182, 'near kim jung un', 'Goes to job', 'Get paid'],
+ 'P004': ['Monke', 5, 100, 'Jungle', 'Arm injury', 'Physiotherapy'],
+ 'P005': ['Han', 18, 173, 'BattleField', 'Food poisoning', 'Tylenol']}
+
+       Patient Health Data
+Action options:: 
+[View   - existing]  patient data 
+[Change - existing]  patient data
+[Add    - incoming]  patient data
+
+[Exit]
+
+Enter the View/Change/Add/Exit: Change
+
+You have choose to change the patient data
+Enter the single person number 
+ex.P000,P001 ... 
+
+Enter the PNNN: P002
+
+['0-Name,1-Age,2-Height(cm),3-Residency,4-Condition,5-Treatment']
+['Sashko', 17, 200, 'Cave 2', 'brain cells loss', 'move to city']
+
+what do you want to change?
+
+Enter the number(0~5):  4
+Write  the change: Severe Brain Cell loss
+
+['Sashko', 17, 200, 'Cave 2', 'Severe Brain Cell loss', 'move to city']
+change has been successfully made
+
+       Patient Health Data
+Action options:: 
+[View   - existing]  patient data 
+[Change - existing]  patient data
+[Add    - incoming]  patient data
+
+[Exit]
+
+Enter the View/Change/Add/Exit: View
+
+you have chosen to view the data
+[View - ALL][View - Single]
+
+Enter All/Single:All
+{'P000': ['0-Name,1-Age,2-Height(cm),3-Residency,4-Condition,5-Treatment'],
+ 'P001': ['Moy', 18, 187, 'Cave 1', 'has a town-phobia', 'move to city'],
+ 'P002': ['Sashko',
+          17,
+          200,
+          'Cave 2',
+          'Severe Brain Cell loss',
+          'move to city'],
+ 'P003': ['hong-hong', 18, 182, 'near kim jung un', 'Goes to job', 'Get paid'],
+ 'P004': ['Monke', 5, 100, 'Jungle', 'Arm injury', 'Physiotherapy'],
+ 'P005': ['Han', 18, 173, 'BattleField', 'Food poisoning', 'Tylenol']}
+
+       Patient Health Data
+Action options:: 
+[View   - existing]  patient data 
+[Change - existing]  patient data
+[Add    - incoming]  patient data
+
+[Exit]
+
+Enter the View/Change/Add/Exit: Add
+
+you have chosen to add the patient data
+You will be entering... 
+['0-Name,1-Age,2-Height(cm),3-Residency,4-Condition,5-Treatment']
+
+Give last three digit of number: 3
+
+Enter a name     :China
+Enter a age      :Ming
+Enter a height   :300m
+Enter a residency:yo
+Enter a condition:ape
+Enter a treatment:china
+['China', 'Ming', '300m', 'yo', 'ape', 'china']
+
+       Patient Health Data
+Action options:: 
+[View   - existing]  patient data 
+[Change - existing]  patient data
+[Add    - incoming]  patient data
+
+[Exit]
+
+Enter the View/Change/Add/Exit: View
+
+you have chosen to view the data
+[View - ALL][View - Single]
+
+Enter All/Single:All
+{'P000': ['0-Name,1-Age,2-Height(cm),3-Residency,4-Condition,5-Treatment'],
+ 'P001': ['Moy', 18, 187, 'Cave 1', 'has a town-phobia', 'move to city'],
+ 'P002': ['Sashko',
+          17,
+          200,
+          'Cave 2',
+          'Severe Brain Cell loss',
+          'move to city'],
+ 'P003': ['hong-hong', 18, 182, 'near kim jung un', 'Goes to job', 'Get paid'],
+ 'P004': ['Monke', 5, 100, 'Jungle', 'Arm injury', 'Physiotherapy'],
+ 'P005': ['Han', 18, 173, 'BattleField', 'Food poisoning', 'Tylenol'],
+ 'P3': ['China', 'Ming', '300m', 'yo', 'ape', 'china']}
+
+       Patient Health Data
+Action options:: 
+[View   - existing]  patient data 
+[Change - existing]  patient data
+[Add    - incoming]  patient data
+
+[Exit]
+
+Enter the View/Change/Add/Exit: Exit
+Thank you for using Moy patient data system
