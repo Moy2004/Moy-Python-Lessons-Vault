@@ -1,0 +1,31 @@
+<?xml version="1.0" ?><group>  <!--main object-->
+
+    <person id="1">  <!--Person is element ,id is Attribute-->
+        <name>Moy</name> <!--elements-->
+        <age>18</age>
+        <weight>92</weight>
+        <height>185</height>
+    </person>
+
+    <person id="2">
+        <name>Sashko</name>
+        <age>18</age>
+        <weight>85</weight>
+        <height>200</height>
+    </person>
+
+    <person id="3">
+        <name>Baby BuBu</name>
+        <age>2</age>
+        <weight>8</weight>
+        <height>80</height>
+    </person>
+
+    <person id="4">
+        <name>bobo</name>
+        <age>18</age>
+        <weight>52</weight>
+        <height>165</height>
+    </person>
+
+</group>
