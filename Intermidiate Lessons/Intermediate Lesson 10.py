@@ -70,5 +70,5 @@ parser.parse('PersonData.xml')  # it starts getting all the <elements>,
                                 # we need to process like line 25 to print data in the element
 
 """
-This Lesson continues to file Intermediate Lesson 8-2.py
+This Lesson continues to file Intermediate Lesson 10-2.py
 """
