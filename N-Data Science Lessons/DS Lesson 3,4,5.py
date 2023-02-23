@@ -4,8 +4,8 @@
 
 Data visualization (Basic Graphing)
 
-note: this was several lessons but since they were too short of a code,
-I combined them under one file.
+note: There are several lesson in this files, 
+because the code in each lesson was too short.
 """
 import numpy as np
 import matplotlib.pyplot as plt
