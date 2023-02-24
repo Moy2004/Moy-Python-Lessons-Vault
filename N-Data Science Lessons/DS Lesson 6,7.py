@@ -67,3 +67,4 @@ Quick 日記
 It's been so long that I only been 
 using standard XY graph XD.
 """
+
