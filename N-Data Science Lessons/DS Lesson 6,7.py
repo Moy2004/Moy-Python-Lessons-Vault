@@ -61,3 +61,9 @@ plt.pie(student, labels=region, autopct="%.2f%%", explode=explode, startangle=90
 plt.title("Student Region of Origin")
 
 plt.show()
+
+"""
+Quick 日記
+It's been so long that I only been 
+using standard XY graph XD.
+"""
