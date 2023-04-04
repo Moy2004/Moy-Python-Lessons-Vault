@@ -1,0 +1,51 @@
+"""
+2023 4/4
+1444 رَمَضَان 13
+
+Decision Trees and Random Forest Classification
+"""
+from sklearn.datasets import load_breast_cancer
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+
+# Decision Trees
+# uses a tree-like model to make decisions based on a set of conditions
+
+# Random Forest Classification
+# ensemble learning method that combines multiple decision trees to improve the accuracy and robustness of the
+# classification model.
+
+data = load_breast_cancer()
+
+X = data.data
+Y = data.target
+
+x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
+
+clf = SVC(kernel='linear', C=3)
+clf.fit(x_train, y_train)
+
+clf2 = KNeighborsClassifier(n_neighbors=3)
+clf2.fit(x_train, y_train)
+
+clf3 = DecisionTreeClassifier()
+clf3.fit(x_train, y_train)
+
+clf4 = RandomForestClassifier()
+clf4.fit(x_train, y_train)
+
+print(f'SVC: {clf.score(x_test, y_test)}')
+print(f'KNN: {clf2.score(x_test, y_test)}')
+print(f'DTC: {clf3.score(x_test, y_test)}')
+print(f'RFC: {clf4.score(x_test, y_test)}')
+
+"""
+Quick 日記
+This might be actually goood for 
+analysing something, for exmaple
+we can deduct its property and find the answer
+"""
+
